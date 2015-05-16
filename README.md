@@ -2,4 +2,4 @@
 The above files are the .Rmd, .md, .html and the directory with 
 the graphs, for the first assignment of reproducible research 
 of Johns Hopkins data science specialization and coursera.The
-PA1_template contains the whole report with the graphs.
+PA1_template.md contains the whole report with the graphs.
