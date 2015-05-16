@@ -33,9 +33,9 @@ hist(stepsTotal$steps,10,col="red",xlab="Total Steps Per Day",main=NULL)
 hist(stepsTotal$steps,col="green",ylab="Probability Desnsity",xlab="Total Steps Per Day",main=NULL,freq=FALSE,10)
 density<-density(stepsTotal$steps)
 points(density$x,density$y,"l",col="red")
-
 ```
-As we can see from the graph we a distribution close to the normal distribution 
+
+As we can see from the graph we have a distribution close to the normal distribution 
  
 **3. Calculate and report the mean and median of the total number of steps taken per day**
 ```{r,echo=TRUE}
@@ -99,6 +99,7 @@ points(density$x,density$y,"l",col="red")
 mean(totalStepsPerDay$steps)
 median(totalStepsPerDay$steps)
 ```
+
 Because we added mean values of steps, we have a probability distribution which is very close to a more narrow normal distribution(smaller standard deviation) than the one in question one.Also now the median and the mean of this distribution are even (as it should be in a normal distribution).
 
 ###Are there differences in activity patterns between weekdays and weekends?
@@ -125,4 +126,5 @@ library(ggplot2)
 y$day<-as.factor(y$day)
 qplot(x=interval,y=steps,data=y,geom="line",facets=day~.)
 ```
+
 

@@ -52,8 +52,9 @@ the dataset.
     density<-density(stepsTotal$steps)
     points(density$x,density$y,"l",col="red")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-4-2.png) As
-we can see from the graph we a distribution close to the normal
+![](PA1_template_files/figure-markdown_strict/unnamed-chunk-4-2.png)
+
+As we can see from the graph we have a distribution close to the normal
 distribution
 
 **3. Calculate and report the mean and median of the total number of
